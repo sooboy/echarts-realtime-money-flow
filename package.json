@@ -1,0 +1,23 @@
+{
+  "name": "echarts-realtime-money-flow",
+  "version": "1.0.0",
+  "description": "",
+  "source": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Regan",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.2.0",
+    "dayjs": "^1.11.6",
+    "echarts": "^5.4.0",
+    "rxjs": "^7.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.10",
+    "buffer": "^5.7.1",
+    "http-server": "^14.1.1"
+  }
+}
