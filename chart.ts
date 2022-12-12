@@ -37,7 +37,7 @@ const option = (time: number,name:string = "对比"): echarts.EChartsOption => (
 export const createChart = (updateTime: number,name:string = "对比") => {
 	const chartDom = document.createElement("div");
 	chartDom.style.display="inline-block";
-    chartDom.style.width = "50%";
+    chartDom.style.width = "40%";
     chartDom.style.height = "1000px";
 	document.body.appendChild(chartDom);
 	const chart = echarts.init(chartDom);
